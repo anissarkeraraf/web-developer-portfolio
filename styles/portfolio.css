@@ -7,6 +7,9 @@ body {
 /* nav related style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .text-orange {
@@ -21,6 +24,7 @@ nav {
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -44,4 +48,21 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related style */
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .profile-picture {
+    width: 584px;
+    /* height: 676px; */
 }
